@@ -114,10 +114,10 @@ const rajveer = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rajveer-rs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=ffffff&rank_icon=github" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rajveer-rs&theme=tokyonight&hide_border=true&background=0d1117&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=rajveerrs7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=ffffff&rank_icon=github" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rajveerrs7&theme=tokyonight&hide_border=true&background=0d1117&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" width="49%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajveer-rs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=ffffff&langs_count=8" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajveerrs7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=ffffff&langs_count=8" width="49%" />
 
 </div>
 
@@ -127,7 +127,7 @@ const rajveer = {
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=rajveer-rs&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%"/>
+<img src="https://github-trophies.vercel.app/?username=rajveerrs7&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%"/>
 
 </div>
 
@@ -161,7 +161,7 @@ const rajveer = {
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rajveer-rs&bg_color=0d1117&color=A78BFA&line=A78BFA&point=ffffff&area=true&area_color=A78BFA&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rajveerrs7&bg_color=0d1117&color=A78BFA&line=A78BFA&point=ffffff&area=true&area_color=A78BFA&hide_border=true" width="100%"/>
 
 </div>
 
@@ -177,6 +177,6 @@ const rajveer = {
 
 **Thanks for visiting! Drop a ⭐ if you like what you see 😄**
 
-![Profile Views](https://komarev.com/ghpvc/?username=rajveer-rs&color=A78BFA&style=for-the-badge&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=rajveerrs7&color=A78BFA&style=for-the-badge&label=Profile+Views)
 
 </div>
