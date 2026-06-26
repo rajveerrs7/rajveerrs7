@@ -1,12 +1,13 @@
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Rajveer%20Singh&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Problem%20Solver%20%7C%20Builder&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Rajveer%20Singh&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20GenAI%20Builder%20%7C%20Problem%20Solver&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Hey+there!+I'm+Rajveer+%F0%9F%91%8B;Full-Stack+Developer+%40+IIIT+Nagpur;Building+scalable+web+apps+with+care;React+%7C+Next.js+%7C+Node.js+%7C+DSA)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&repeat=true&width=700&lines=Hey+there!+I'm+Rajveer+%F0%9F%91%8B;Full-Stack+%26+GenAI+Developer+%40+IIIT+Nagpur;Building+RAG+Pipelines+%7C+LangChain+%7C+Groq;React+%7C+Next.js+%7C+Node.js+%7C+DSA)](https://git.io/typing-svg)
 
 </div>
 
@@ -25,96 +26,128 @@
 
 ---
 
-## 🧑‍💻 About Me
+# 🧑‍💻 About Me
 
 ```ts
 const rajveer = {
-  name        : "Rajveer Singh",
-  role        : "Full-Stack Developer",
-  college     : "IIIT Nagpur — B.Tech ECE (2023–2027)",
-  cgpa        : 8.15,
-  passions    : ["Building scalable web apps", "DSA", "Backend Engineering"],
-  currentFocus: ["Next.js", "System Design", "REST APIs"],
-  funFact     : "I lead football teams AND debug code at 2am 🏈💻",
+  name: "Rajveer Singh",
+  role: "Full-Stack Developer & GenAI Builder",
+  college: "IIIT Nagpur — B.Tech ECE (2023–2027)",
+  cgpa: 8.15,
+
+  passions: [
+    "Building scalable web apps",
+    "RAG Pipelines & LLM Integration",
+    "DSA & Backend Engineering",
+  ],
+
+  currentFocus: [
+    "LangChain.js",
+    "Retrieval-Augmented Generation (RAG)",
+    "Next.js 14 App Router",
+    "System Design",
+  ],
+
+  funFact:
+    "I lead football teams AND debug RAG pipelines at 2am ⚽💻",
 };
 ```
 
 ---
 
-## 🚀 Projects
+# 🚀 Projects
 
-### 🏥 [MediMeet](https://github.com) — Online Doctor Consultation Platform
-> **Next.js · Vonage · Redis · Prisma**
+## 🧠 DocuMind AI — Multi-Tenant GenAI SaaS Platform
 
-- 🔒 Role-based access control for **3 user roles** with server-side auth
-- 📅 Real-time scheduling with **20+ concurrent bookings** and conflict-free slots
-- 🎥 Live video consultations via **Vonage Video API** across **10+ medical specialties**
+**Tech Stack:** Next.js 14 · LangChain.js · Groq · pgvector · PostgreSQL · Redis · HuggingFace
 
----
-
-### 🏠 [EmirateEstate](https://github.com) — Real Estate Dashboard
-> **Next.js · MongoDB · NextAuth**
-
-- 🔐 Secure authentication with **NextAuth** and protected routes
-- 🔍 Advanced filtering across **8+ property attributes** (price, location, type)
-- 🏗️ **6+ REST API endpoints** for listings, saved properties, and user profiles
+- 🔗 Architected a production-grade RAG pipeline using LangChain.js with HuggingFace embeddings (**bge-small-en-v1.5**, 384-dim) and pgvector for semantic similarity search.
+- 📡 Implemented real-time token-by-token streaming using Groq API (`llama3-8b-8192`) with `ReadableStream` + NDJSON.
+- 🏢 Enforced strict multi-tenant isolation using `userId` metadata filters across 5 Prisma ORM models.
+- 🛡️ Built Redis sliding-window rate limiting (5 req/min), JWT blacklist, Zod validation, and prompt injection filtering.
+- 📊 Built an analytics dashboard with Recharts and implemented RAG evaluation metrics (Precision@4, groundedness, relevance).
 
 ---
 
-### 📸 [Memories App](https://github.com) — Photo Management CRUD System
-> **MongoDB · Express.js · React.js**
+## 🏥 MediMeet — Online Doctor Consultation Platform
 
-- 🗃️ Full-stack CRUD for **100+ image records** with metadata
-- ⚡ Optimized MongoDB queries with **indexing** for fast loads under high load
-- 🖼️ Lazy image loading + optimized React state management
+**Tech Stack:** Next.js · Vonage · Redis · Prisma ORM
 
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Languages
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![ShadCN](https://img.shields.io/badge/ShadCN%2FUI-%23000000.svg?style=for-the-badge&logo=shadcnui&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-%23443E52.svg?style=for-the-badge&logo=react&logoColor=white)
-
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![REST API](https://img.shields.io/badge/REST_APIs-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-
-### Databases & Caching
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
+- 🔒 RBAC across Patient, Doctor, and Admin roles.
+- 📅 Conflict-free appointment scheduling supporting concurrent bookings.
+- 🎥 Live consultations using Vonage Video API.
+- 🗄️ Designed normalized Prisma schema with referential integrity.
 
 ---
 
-## 📊 GitHub Stats
+## 🛒 CampusCart — Campus Marketplace
+
+**Tech Stack:** React Native · Expo · Node.js · PostgreSQL · Prisma ORM · Zustand
+
+- ⚙️ Built 4 independent marketplace services.
+- 🔐 JWT Authentication with refresh token rotation.
+- ⚡ Reduced API calls by 70% using Zustand caching.
+- 🖼️ Optimized Cloudinary upload pipeline reducing image size by 60%.
+
+---
+
+## 📸 Memories App
+
+**Tech Stack:** MongoDB · Express.js · React.js
+
+- 🗃️ CRUD operations for image management.
+- ⚡ Optimized MongoDB queries with indexing.
+- 🖼️ Lazy loading for smooth user experience.
+
+---
+
+# 🛠 Tech Stack
+
+## Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=cpp,js,ts,html,css" />
+</p>
+
+## Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" />
+<img src="https://img.shields.io/badge/ShadCN-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Zustand-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+</p>
+
+## AI & GenAI
+
+<p>
+<img src="https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RAG-6C63FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge"/>
+</p>
+
+## Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,mysql,redis,prisma" />
+</p>
+
+## Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel,postman,vscode" />
+</p>
+
+---
+
+# 📊 GitHub Stats
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=rajveerrs7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=ffffff&rank_icon=github" width="49%" />
+
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajveerrs7&theme=tokyonight&hide_border=true&background=0d1117&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" width="49%" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajveerrs7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=ffffff&langs_count=8" width="49%" />
@@ -123,41 +156,38 @@ const rajveer = {
 
 ---
 
-## 🏆 Achievements & Trophies
+# 🏆 Achievements & Trophies
 
 <div align="center">
 
-<img src="https://github-trophies.vercel.app/?username=rajveerrs7&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=rajveerrs7&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%"/>
 
 </div>
 
 ---
 
-## 🎯 Coding Profiles at a Glance
+# 🎯 Coding Profiles
 
-<div align="center">
-
-| Platform | Highlight |
-|----------|-----------|
-| 🟡 **LeetCode** | 300+ problems solved |
-| 🍴 **CodeChef** | Active competitive programmer |
-| 🟠 **Codeforces** | Regular contest participant |
-| 🟢 **GeeksforGeeks** | 50+ SQL problems solved |
-
-</div>
+| Platform | Highlights |
+|----------|------------|
+| 🟡 LeetCode | 350+ problems solved |
+| 🍴 CodeChef | Active Competitive Programmer |
+| 🟠 Codeforces | Regular Contest Participant |
+| 🟢 GeeksforGeeks | 50+ SQL Problems |
 
 ---
 
-## 🌟 Fun Facts
+# 🌟 Fun Facts
 
-- ⚽ Led a football team to **top-5 among 40 teams** at State-Level Championship
-- 🧩 **Finalist** in institute-level competitive programming (200+ participants)
-- 🔢 Solved **300+ DSA problems** across multiple platforms
-- 🗄️ **50+ SQL problems** — joins, subqueries, indexing, optimization
+- ⚽ Led a football team to Top-5 among 40 teams at State-Level Championship.
+- 🧩 Finalist in institute-level Competitive Programming.
+- 🤖 Built a production-grade RAG pipeline from scratch.
+- 🔢 Solved 350+ DSA problems.
+- 🗄️ Solved 50+ SQL problems.
 
 ---
 
-## 📈 Contribution Graph
+# 📈 Contribution Graph
 
 <div align="center">
 
@@ -171,12 +201,10 @@ const rajveer = {
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%"/>
 
-</div>
+### Thanks for visiting! ⭐
 
-<div align="center">
+If you like my work, consider giving my repositories a **star** 😄
 
-**Thanks for visiting! Drop a ⭐ if you like what you see 😄**
-
-![Profile Views](https://komarev.com/ghpvc/?username=rajveerrs7&color=A78BFA&style=for-the-badge&label=Profile+Views)
+![](https://komarev.com/ghpvc/?username=rajveerrs7&style=for-the-badge&color=blueviolet)
 
 </div>
